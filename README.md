@@ -1,8 +1,10 @@
-# Denver Portfolio
+# 👨🏻‍💻 Denver Portfolio
 
 Welcome! This is my portfolio website, rebuilt from the ground up using **Next.js** to demonstrate modern web development practices, high performance, and clean code architecture.
 
-### 2026 Update:
+---
+
+### 📆 2026 Update:
 I recently migrated this entire project from a legacy HTML/Bootstrap setup to **Next.js 15 (App Router)** to leverage:
 * **Server-Side Rendering (SSR)** for better SEO.
 * **Component-based Architecture** for maintainability.
@@ -23,8 +25,9 @@ Software Engineer with **10+ years of experience** in building scalable applicat
 - ✅ Optimized Performance (Core Web Vitals)
 - ✅ Clean & Standardized Commit Messages
 
+---
 
-### How to Run
+### ▶️ How to Run
 
 First, run the development server:
 
@@ -44,7 +47,9 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-### Learn More
+---
+
+### 📚 Learn More
 
 To learn more about Next.js, take a look at the following resources:
 
