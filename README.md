@@ -2,9 +2,11 @@
 
 Welcome! This is my portfolio website, rebuilt from the ground up using **Next.js** to demonstrate modern web development practices, high performance, and clean code architecture.
 
+### 🚀 Live https://denver-ten-portfolio.vercel.app
+
 ---
 
-### 📆 2026 Update:
+### 📆 2026 Update
 I recently migrated this entire project from a legacy HTML/Bootstrap setup to **Next.js 15 (App Router)** to leverage:
 * **Server-Side Rendering (SSR)** for better SEO.
 * **Component-based Architecture** for maintainability.
