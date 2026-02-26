@@ -226,63 +226,7 @@ export default function HomePage() {
             </div>
           </div>
         </section>
-        </div>
-
-      {/* Hero Section */}
-      <section className="mb-24">
-        <h1 className="text-5xl font-bold mb-6 tracking-tight text-slate-900">
-          Denver
-        </h1>
-        <p className="text-xl text-slate-600 leading-relaxed max-w-2xl">
-          Senior Software Engineer with <span className="font-semibold text-blue-600">11 years</span> of experience.
-          Specialized in building scalable systems across Fintech, E-commerce, and Enterprise solutions.
-        </p>
-        <div className="flex gap-4 mt-8">
-          <a href="https://github.com/deng37" className="flex items-center gap-2 text-slate-500 hover:text-black transition">
-            <Github size={20} /> GitHub
-          </a>
-          <div className="flex items-center gap-2 text-slate-400">
-            <Terminal size={20} /> Java • Ruby • React • Go
-          </div>
-        </div>
-      </section>
-
-      {/* Projects Grid */}
-      <section>
-        <h2 className="text-2xl font-bold mb-10 text-slate-800">Selected Work</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {PROJECTS.map((project) => (
-            <div key={project.title} className="group p-6 rounded-2xl border border-slate-100 bg-slate-50 hover:bg-white hover:shadow-xl hover:shadow-slate-200/50 transition-all duration-300">
-              <h3 className="text-lg font-bold mb-2 group-hover:text-blue-600 transition">{project.title}</h3>
-              <p className="text-slate-500 text-sm mb-4 leading-relaxed">
-                {project.description}
-              </p>
-              <div className="flex flex-wrap gap-2 mb-6">
-                {project.tags.map(tag => (
-                  <span key={tag} className="px-2 py-1 text-[10px] uppercase tracking-wider font-bold bg-slate-200 text-slate-600 rounded">
-                    {tag}
-                  </span>
-                ))}
-              </div>
-              <div className="flex gap-4">
-                <a href={project.link} className="text-xs font-bold flex items-center gap-1 hover:underline">
-                  Source Code <ExternalLink size={14} />
-                </a>
-                {project.demo && (
-                  <a href={project.demo} className="text-xs font-bold text-blue-600 flex items-center gap-1 hover:underline">
-                    Live Demo <ExternalLink size={14} />
-                  </a>
-                )}
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* Footer */}
-      <footer className="mt-32 pt-8 border-t border-slate-100 text-slate-400 text-sm italic">
-        Building robust solutions since 2015.
-      </footer>
+      </div>
     </main>
   );
 }
