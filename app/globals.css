@@ -602,6 +602,12 @@
   }
 }
 
+  @media (max-width: 991.98px) {
+    .masthead {
+      height: 100%;
+    }
+  }
+
  @media (max-width: 992px) {
     .slideshow-container {
         max-width: 95%;
@@ -688,6 +694,12 @@
         overflow-y: hidden;
         overflow-x: hidden;
     }
+ }
+
+ @media (max-width: 575.98px) {
+  .slider-title-experience {
+    padding-top: 10%;
+  }
  }
 
   @media (max-width: 555px) {
@@ -850,6 +862,10 @@
         margin-right: -15px;
         margin-left: -15px;
         margin-top: 65px;
+    }
+
+    .container-skillset div {
+      width: 100%
     }
 
     .item-skillset {

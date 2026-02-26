@@ -113,7 +113,7 @@ export default function HomePage() {
                   <img className="img-fluid" style={{ borderRadius: "50%", paddingBottom: "17px"}} src="/img/od.webp" width="70px" alt="" />
                 </span>
                 <span className="item-title-skillset">OD Tech</span>
-                <p className="item-description-skillset">java, spring boot, webmethods, stored proc, apigw, liquibase, json schema, batch, jmeter, redis, camel apache, wsdl, react native</p>
+                <p className="item-description-skillset">java, spring boot, webmethods, react native, typescript, stored proc, apigw, liquibase, json schema, batch, jmeter, redis</p>
               </div>
             </div>
           </div>
