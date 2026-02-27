@@ -48,7 +48,7 @@ export default function HomePage() {
             </a>
           </div>
           <div>
-            <a className="sidebar-contact-whatsapp" href="https://api.whatsapp.com/send/?phone=62817206050&text=halo&app_absent=0" title='whatsapp' target="_blank" rel="noopener noreferrer">
+            <a className="sidebar-contact-whatsapp" href="https://api.whatsapp.com/send/?phone=62817206050&text=halo&app_absent=0" title='whatsapp' aria-label='whatsapp' target="_blank" rel="noopener noreferrer">
               <svg
                 width={18} height={18}
                 viewBox="0 0 24 24" fill="none"
