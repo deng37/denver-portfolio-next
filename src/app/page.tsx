@@ -1,8 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { PROJECTS } from '@/lib/constants';
-import { ExternalLink, Github, Terminal, Mail, Linkedin } from 'lucide-react';
+import { Github, Mail, Linkedin } from 'lucide-react';
 
 // Slide image source
 const slidesData = [
