@@ -29,7 +29,7 @@ Software Engineer with **10+ years of experience** in building scalable applicat
 - ✅ Fault-Tolerant API Proxy: Built a Next.js API Route with Exponential Backoff Retry Logic to handle cold-starts on serverless deployments (Fly.io).
 - ✅ Optimised Performance: Core Web Vitals focused, leveraging SSR and efficient client-side state transitions.
 
-### 🎮 Featured Integration: Grab Your Labubu
+### 🎮 Featured Integration: [Grab Your Labubu](https://grab-your-labubu.fly.dev)
 A live integration with a High-Concurrency Go Backend.
 
 ---
