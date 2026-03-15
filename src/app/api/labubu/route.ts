@@ -4,7 +4,7 @@ export async function GET() {
   const API_URL = process.env.LABUBU_API_URL;
   const API_KEY = process.env.LABUBU_API_KEY;
 
-  console.log("ROUTE: ", API_URL, API_KEY);
+  console.log("ROUTE: ", !!API_URL, !!API_KEY);
 
   try {
     const response = await fetchWithRetry(`${API_URL}/leaderboard`, {
