@@ -73,7 +73,7 @@ export default function HomePage() {
         <section className="masthead d-flex">
           <div className="container text-center my-auto">
             <div className="main-title-intro" title="Denver Tendri Haryanto">Hello, I'm Denver</div>
-            <div className="main-subtitle-intro">Senior Software Engineer • 10+ Years Experience across Southeast Asia</div>
+            <div className="main-subtitle-intro">Software Engineer • 10+ Years Experience across Southeast Asia</div>
           </div>
           <div className="overlay"></div>
         </section>

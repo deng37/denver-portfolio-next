@@ -2,6 +2,9 @@
 
 export default function RunningMessage({ message }: { message: string | number }) {
   const messageString = String(message);
+
+  if (!message || messageString?.includes('undefined')) return null;
+
   const displayMessage = (messageString?.indexOf(".") == -1)
                           ? messageString
                           : messageString?.substring(0, messageString?.indexOf(".") + 3);
