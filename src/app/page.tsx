@@ -1,7 +1,10 @@
 "use client";
 
+import { Github, Linkedin,Mail } from 'lucide-react';
 import { useState } from "react";
-import { Github, Mail, Linkedin } from 'lucide-react';
+
+import RunningMessage from '@/components/RunningMessage';
+import { useGetLabubuStatsQuery } from '@/lib/store/services/labubuApi';
 
 // Slide image source
 const slidesData = [
@@ -17,6 +20,7 @@ const slidesData = [
 
 export default function HomePage() {
   const [slideIndex, setSlideIndex] = useState(0);  // Default slide index
+  const { data: topScore, isLoading } = useGetLabubuStatsQuery();
 
   function moveSlides(n: number) {
     let nextIndex = slideIndex + n;
@@ -225,6 +229,12 @@ export default function HomePage() {
             </div>
           </div>
         </section>
+
+        {
+          !isLoading
+            ? <RunningMessage message={`${topScore?.[0].duration_ms}`} />
+            : null
+        }
       </div>
     </main>
   );

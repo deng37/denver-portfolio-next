@@ -10,12 +10,14 @@ Welcome! This is my portfolio website, rebuilt from the ground up using **Next.j
 I recently migrated this entire project from a legacy HTML/Bootstrap setup to **Next.js 15 (App Router)** to leverage:
 * **Server-Side Rendering (SSR)** for better SEO.
 * **Component-based Architecture** for maintainability.
-* **Optimized Assets** using Lucide-React and Next Image.
+* **Optimised Assets** using Lucide-React and Next Image.
 
 ### 🛠 Tech Stack
 * **Framework:** Next.js 15
 * **Library:** React 19
-* **Styling:** Bootstrap 5 (Customized)
+* **State Management:** Redux Toolkit (RTK Query)
+* **Backend Communication:** REST API with retry logic and backoff
+* **Styling:** Bootstrap 5 (Customised)
 * **Icons:** Lucide-React
 * **Deployment:** Vercel
 
@@ -23,9 +25,12 @@ I recently migrated this entire project from a legacy HTML/Bootstrap setup to **
 Software Engineer with **10+ years of experience** in building scalable applications. Proven track record in Java, Spring Boot, and React.
 
 ### 📈 Key Features
-- ✅ Fully Responsive Design
-- ✅ Optimized Performance (Core Web Vitals)
-- ✅ Clean & Standardized Commit Messages
+- ✅ Real-time Data Integration: Implemented RTK Query for seamless data fetching and caching from external Go-based services.
+- ✅ Fault-Tolerant API Proxy: Built a Next.js API Route with Exponential Backoff Retry Logic to handle cold-starts on serverless deployments (Fly.io).
+- ✅ Optimised Performance: Core Web Vitals focused, leveraging SSR and efficient client-side state transitions.
+
+### 🎮 Featured Integration: Grab Your Labubu
+A live integration with a High-Concurrency Go Backend.
 
 ---
 
